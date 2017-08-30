@@ -49,9 +49,9 @@ custom navigation bar , can show and hide with  animation
 ### 四、实现
 
     （1）创建
-   
-    - (void)viewDidLoad {
+    - (void)viewDidLoad {
         [super viewDidLoad];
+    
         //init
         self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
         self.tableView.dataSource = self;
@@ -59,27 +59,26 @@ custom navigation bar , can show and hide with  animation
         self.navigationBar = [XYQNavigationBar createCustomNavigationBar];
 
     
-       //update（此处可以自由改变导航栏的属性值）
+        //update（此处可以自由改变导航栏的属性值）
         self.navigationBar.title = @"自定义导航栏";
     
     
         //block
         __weak typeof(self) weakSelf = self;
         self.navigationBar.clickLeftItemBlock = ^(){
-           [weakSelf.navigationController popViewControllerAnimated:YES];
+            [weakSelf.navigationController popViewControllerAnimated:YES];
         };
         self.navigationBar.clickRightItemBlock = ^(){
-           [weakSelf.navigationController pushViewController:[[SecondViewController alloc] init] animated:YES];
-        };
+            [weakSelf.navigationController pushViewController:[[SecondViewController alloc] init] animated:YES];
+        };
     
     
         // add
         [self.view addSubview:self.tableView];
         [self.view addSubview:self.navigationBar];
-     }
-     
-     （2）显示
-     -(void)viewWillAppear:(BOOL)animated{
+    }
+    （2）显示
+    -(void)viewWillAppear:(BOOL)animated{
         [super viewWillAppear:animated];
     
         //hide system navigationBar
@@ -87,8 +86,7 @@ custom navigation bar , can show and hide with  animation
     
         //show custom navigationBar
         [self.navigationBar showCustomNavigationBar:YES];
-     }
-     
+    }
     （3）隐藏
     -(void)viewWillDisappear:(BOOL)animated{
         [super viewWillDisappear:animated];
@@ -99,7 +97,6 @@ custom navigation bar , can show and hide with  animation
         //hide custom navigationBar
         [self.navigationBar showCustomNavigationBar:NO];
     }
-    
     （4）监测	
     #pragma mark - public methods
     // animation show or hide navigationbar
@@ -114,7 +111,7 @@ custom navigation bar , can show and hide with  animation
         //method 2 : change backgrundViewColor alpha
         //[self.navigationBar setupBgColorAlpha:colorOffset animation:0.4 compeleteBlock:nil];
     }
-
+   
 
 ### 五、效果
 
