@@ -49,9 +49,9 @@ custom navigation bar , can show and hide with  animation
 ### 四、实现
 
     （1）创建
-    - (void)viewDidLoad {
+   
+    - (void)viewDidLoad {
         [super viewDidLoad];
-    
         //init
         self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
         self.tableView.dataSource = self;
