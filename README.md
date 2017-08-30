@@ -48,8 +48,7 @@ custom navigation bar , can show and hide with  animation
 
 ### 四、实现
 
-    （1）创建
-    
+    （1）创建
     - (void)viewDidLoad {
         [super viewDidLoad];
     
@@ -78,7 +77,8 @@ custom navigation bar , can show and hide with  animation
         [self.view addSubview:self.tableView];
         [self.view addSubview:self.navigationBar];
      }
-    （2）显示
+     
+     （2）显示
      -(void)viewWillAppear:(BOOL)animated{
         [super viewWillAppear:animated];
     
@@ -88,6 +88,7 @@ custom navigation bar , can show and hide with  animation
         //show custom navigationBar
         [self.navigationBar showCustomNavigationBar:YES];
      }
+     
     （3）隐藏
     -(void)viewWillDisappear:(BOOL)animated{
         [super viewWillDisappear:animated];
@@ -98,6 +99,7 @@ custom navigation bar , can show and hide with  animation
         //hide custom navigationBar
         [self.navigationBar showCustomNavigationBar:NO];
     }
+    
     （4）监测	
     #pragma mark - public methods
     // animation show or hide navigationbar
