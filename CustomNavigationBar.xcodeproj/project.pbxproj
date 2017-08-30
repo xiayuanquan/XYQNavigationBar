@@ -19,6 +19,7 @@
 		B855C1361F565D3200882B33 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1351F565D3200882B33 /* FirstViewController.m */; };
 		B855C13A1F565F3A00882B33 /* XYQNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1391F565F3A00882B33 /* XYQNavigationBar.m */; };
 		B855C13D1F56642C00882B33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C13C1F56642C00882B33 /* SecondViewController.m */; };
+		B855C13F1F5687E500882B33 /* navigationbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = B855C13E1F5687E500882B33 /* navigationbar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		B855C1391F565F3A00882B33 /* XYQNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYQNavigationBar.m; sourceTree = "<group>"; };
 		B855C13B1F56642C00882B33 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B855C13C1F56642C00882B33 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B855C13E1F5687E500882B33 /* navigationbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = navigationbar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				B855C13C1F56642C00882B33 /* SecondViewController.m */,
 				B855C10A1F565C4000882B33 /* Main.storyboard */,
 				B855C10D1F565C4000882B33 /* Assets.xcassets */,
+				B855C13E1F5687E500882B33 /* navigationbar.gif */,
 				B855C10F1F565C4000882B33 /* LaunchScreen.storyboard */,
 				B855C1121F565C4000882B33 /* Info.plist */,
 				B855C1011F565C4000882B33 /* Supporting Files */,
@@ -301,6 +304,7 @@
 			files = (
 				B855C1111F565C4000882B33 /* LaunchScreen.storyboard in Resources */,
 				B855C10E1F565C4000882B33 /* Assets.xcassets in Resources */,
+				B855C13F1F5687E500882B33 /* navigationbar.gif in Resources */,
 				B855C10C1F565C4000882B33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
