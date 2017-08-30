@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67359AA4EC7C6CDCFDEA9FE9 /* libPods-CustomNavigationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B5C0C1C643C0FA72A1BEE6 /* libPods-CustomNavigationBar.a */; };
+		B848D8D21F56AAE4008CC429 /* navigationbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = B848D8D11F56AAE4008CC429 /* navigationbar.gif */; };
 		B855C1031F565C4000882B33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1021F565C4000882B33 /* main.m */; };
 		B855C1061F565C4000882B33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1051F565C4000882B33 /* AppDelegate.m */; };
 		B855C1091F565C4000882B33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1081F565C4000882B33 /* ViewController.m */; };
@@ -19,7 +20,6 @@
 		B855C1361F565D3200882B33 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1351F565D3200882B33 /* FirstViewController.m */; };
 		B855C13A1F565F3A00882B33 /* XYQNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C1391F565F3A00882B33 /* XYQNavigationBar.m */; };
 		B855C13D1F56642C00882B33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B855C13C1F56642C00882B33 /* SecondViewController.m */; };
-		B855C13F1F5687E500882B33 /* navigationbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = B855C13E1F5687E500882B33 /* navigationbar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 		3B6D4A7DB0BB73DF2C0C3085 /* Pods-CustomNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar/Pods-CustomNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
 		6BB6A45C22B36C38399C9A81 /* Pods-CustomNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNavigationBar/Pods-CustomNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
 		91B5C0C1C643C0FA72A1BEE6 /* libPods-CustomNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B848D8D11F56AAE4008CC429 /* navigationbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = navigationbar.gif; sourceTree = "<group>"; };
 		B855C0FE1F565C4000882B33 /* CustomNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B855C1021F565C4000882B33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B855C1041F565C4000882B33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		B855C1391F565F3A00882B33 /* XYQNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYQNavigationBar.m; sourceTree = "<group>"; };
 		B855C13B1F56642C00882B33 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B855C13C1F56642C00882B33 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		B855C13E1F5687E500882B33 /* navigationbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = navigationbar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 				B855C13B1F56642C00882B33 /* SecondViewController.h */,
 				B855C13C1F56642C00882B33 /* SecondViewController.m */,
 				B855C10A1F565C4000882B33 /* Main.storyboard */,
+				B848D8D11F56AAE4008CC429 /* navigationbar.gif */,
 				B855C10D1F565C4000882B33 /* Assets.xcassets */,
-				B855C13E1F5687E500882B33 /* navigationbar.gif */,
 				B855C10F1F565C4000882B33 /* LaunchScreen.storyboard */,
 				B855C1121F565C4000882B33 /* Info.plist */,
 				B855C1011F565C4000882B33 /* Supporting Files */,
@@ -304,7 +304,7 @@
 			files = (
 				B855C1111F565C4000882B33 /* LaunchScreen.storyboard in Resources */,
 				B855C10E1F565C4000882B33 /* Assets.xcassets in Resources */,
-				B855C13F1F5687E500882B33 /* navigationbar.gif in Resources */,
+				B848D8D21F56AAE4008CC429 /* navigationbar.gif in Resources */,
 				B855C10C1F565C4000882B33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
