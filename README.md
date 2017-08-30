@@ -117,4 +117,6 @@ custom navigation bar , can show and hide with  animation
 
 
 ### 六、下载
+
+    github：https://github.com/xiayuanquan/XYQNavigationBar.git
     
